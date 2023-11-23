@@ -10,6 +10,14 @@ Define functions or classes in `asgmt-five.py` with given names and templates th
 class SquareSqrtArgs:
     """
     >>> square_sqrt_args = SquareSqrtArgs()
+    >>> square_sqrt_args.square_args(2)
+    [4]
+    >>> square_sqrt_args.sqrt_args(4)
+    [2.0]
+    >>> square_sqrt_args.square_args(1, 2)
+    [1, 4]
+    >>> square_sqrt_args.sqrt_args(1, 4)
+    [1.0, 2.0]
     >>> square_sqrt_args.square_args(0, 1, 2)
     [0, 1, 4]
     >>> square_sqrt_args.sqrt_args(0, 1, 4)
